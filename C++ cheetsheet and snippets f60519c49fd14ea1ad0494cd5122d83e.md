@@ -1,81 +1,64 @@
-# Competitive programming ULTIMATE GUIDE and RESOURCES
+# Competitive Programming Resources
 
-# RESOURCES
+## Equations and Math
 
-Useful equations for cp:[https://blog.shahjalalshohag.com/equation-list/](https://blog.shahjalalshohag.com/equation-list/)
+- [Useful Equations for CP](https://blog.shahjalalshohag.com/equation-list/)
+- [mMahs in CP](https://codeforces.com/blog/entry/69405)
+- [Maths for CP](https://codeforces.com/blog/entry/118882)
 
-[https://codeforces.com/blog/entry/69405](https://codeforces.com/blog/entry/69405) → mMahs in cp
+## Books and Guides
 
-[https://codeforces.com/blog/entry/118882](https://codeforces.com/blog/entry/118882)→ Maths for cp
+- [Discrete Mathematics and Its Applications - 8e (Kenneth Rosen) PDF](https://imanulhuq.yolasite.com/resources/Discrete%20Mathematics%20and%20Its%20Applications%20-%208e%20(Kenneth%20Rosen)%20%5B9781259676512%5D-compressed.pdf)
+- [Ultimate Guide to Interview Prep](https://archive.fo/NGwHN)
+- [Awesome CP Resources](https://github.com/lnishan/awesome-competitive-programming)
+- [CP Syllabus](https://gist.github.com/sharmaeklavya2/8aa2830f3a46a3f46ff249b4e1f07767)
 
-[https://imanulhuq.yolasite.com/resources/Discrete Mathematics and Its Applications - 8e (Kenneth Rosen) [9781259676512]-compressed.pdf](https://imanulhuq.yolasite.com/resources/Discrete%20Mathematics%20and%20Its%20Applications%20-%208e%20(Kenneth%20Rosen)%20%5B9781259676512%5D-compressed.pdf)→ Books for mathematics
+## Practice and Repositories
 
-[https://archive.fo/NGwHN](https://archive.fo/NGwHN)→ Ultimate guide to interview prep
+- [Codeforces Division-wise Practice](https://contestmania.web.app/codeforces?category=Div2)
+- [CP GitHub Repo 1](https://github.com/mzhang2021/cp-library/tree/master/implementations)
+- [CP GitHub Repo 2](https://github.com/ShahjalalShohag/code-library)
+- [CP GitHub Repo 3](https://github.com/Ashishgup1/Competitive-Coding)
 
-[https://github.com/lnishan/awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming) → Awesome CP resources
+## Online Platforms and Tutorials
 
-STL cheetsheet(tabular) → [https://leetcode.com/discuss/study-guide/1154632/C%2B%2B-STL-powerful-guide-or-Compiled-list-of-popular-STL-operations](https://leetcode.com/discuss/study-guide/1154632/C%2B%2B-STL-powerful-guide-or-Compiled-list-of-popular-STL-operations)
+- [Topcoder CP Blogs](https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming)
+- [C++ STL Resources](https://github.com/the-hyp0cr1t3/CC/blob/master/Beginner%20Topics/%5BS1%5D%20Greed%20is%20good%2C%20sort%20of/%5BEP%204%5D%20C%2B%2B%20STL.md)
+- [CP Resources](https://cp.cyberlabs.club/docs/roadmap/stl/stl-tutorials)
+- [Atcoder Sort by Difficulty](https://kenkoooo.com/atcoder#/list/)
 
-Cp syllabus → [https://gist.github.com/sharmaeklavya2/8aa2830f3a46a3f46ff249b4e1f07767](https://gist.github.com/sharmaeklavya2/8aa2830f3a46a3f46ff249b4e1f07767)
+## Specific Topics
 
-Codeforces div wise practice → [https://contestmania.web.app/codeforces?category=Div2](https://contestmania.web.app/codeforces?category=Div2) 
+- [Detailed Article on Queue and Deque](https://www.cosmiclearn.com/cplusplus/stdqueue.php)
+- [GFG Competitive Programming Guide](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/)
+- [CP Cheat Sheet Article](https://medium.com/cheat-sheets/cheat-sheet-for-competitive-programming-with-c-f2e8156d5aa9)
+- [Bro Coders CP Sheet Playlist](https://www.youtube.com/playlist?list=PLjeQ9Mb66hM1VsmVaQ9Xf3d98kNHun66f)
 
-Awesome CP github repos :
+## Miscellaneous
 
-Repo 1→ [https://github.com/mzhang2021/cp-library/tree/master/implementations](https://github.com/mzhang2021/cp-library/tree/master/implementations)
+- [Codeforces Top Blogs Compilation](https://codeforces.com/catalog)
+- [Abhishek Saini Tweet on CP](https://twitter.com/abhishekcode42/status/1683502923462897665)
+- [CP Sheet for Beginners](https://codeforces.com/group/MWSDmqGsZm/contests)
+- [Best Blog on Codeforces](https://blog.shahjalalshohag.com/topic-list/)
+- [Guided Path for CP by Soutik Dey](https://usaco.guide/silver/custom-cpp-stl?lang=cpp)
+- [GitHub Repo for CP Topics](https://github.com/CoderS2020/Cpp-Algo-DS/tree/main)
 
-Repo 2→ [https://github.com/ShahjalalShohag/code-library](https://github.com/ShahjalalShohag/code-library)
+## Algorithms and Data Structures
 
-Repo 3→ [https://github.com/Ashishgup1/Competitive-Coding](https://github.com/Ashishgup1/Competitive-Coding)
+- [Bit Manipulation Resources](https://leetcode.com/discuss/interview-question/3695233/all-types-of-patterns-for-bits-manipulations-and-how-to-use-it)
+- [Article on Set, Unordered Set, and Multiset](https://www.mygreatlearning.com/blog/set-in-cpp/#basic-functions-sets)
+- [Maps Interview Questions Article](https://igotanoffer.com/blogs/tech/map-interview-questions#easy)
+- [Hashtable and Map Practice Problems](https://leetcode.com/list/504wrexe/)
+- [Queue Practice Problems](https://medium.com/techie-delight/queue-data-structure-practice-problems-and-interview-questions-f459bf0578db)
+- [C++ Data Structures Cheat Sheet PDF](https://people.computing.clemson.edu/~goddard/texts/dataStructCPP/fullText.pdf)
+- [Love Babbar's CP Roadmap](https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h)
 
-Topcoder Cp blogs → [https://www.topcoder.com/thrive/tracks?track=Competitive Programming](https://www.topcoder.com/thrive/tracks?track=Competitive%20Programming)
+## Video Tutorials
 
-[https://github.com/the-hyp0cr1t3/CC/blob/master/Beginner Topics/[S1] Greed is good%2C sort of/[EP 4] C%2B%2B STL.md](https://github.com/the-hyp0cr1t3/CC/blob/master/Beginner%20Topics/%5BS1%5D%20Greed%20is%20good%2C%20sort%20of/%5BEP%204%5D%20C%2B%2B%20STL.md) → C++ STL resources github repo
+- [Kartik Auroora STL Tutorial](https://www.youtube.com/watch?v=oAAKamOnruM)
+- [Bro Coders Placement Sheet](https://onedrive.live.com/view.aspx?resid=633D0AA17B58E355%213089&ithint=file%2Cdocx&authkey=%21APXxsLmWQinD6kE)
 
-[https://cp.cyberlabs.club/docs/roadmap/stl/stl-tutorials](https://cp.cyberlabs.club/docs/roadmap/stl/stl-tutorials) → CP resources
-
-[https://kenkoooo.com/atcoder#/list/](https://kenkoooo.com/atcoder#/list/) → Atcoder sort by difficulty 
-
-[https://www.cosmiclearn.com/cplusplus/stdqueue.php](https://www.cosmiclearn.com/cplusplus/stdqueue.php) →  detailed article on  queue and deque
-
-[https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/](https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/) → GFG Competitive programming
-
-[https://medium.com/cheat-sheets/cheat-sheet-for-competitive-programming-with-c-f2e8156d5aa9](https://medium.com/cheat-sheets/cheat-sheet-for-competitive-programming-with-c-f2e8156d5aa9)  → CP cheetsheet Medium article
-
-[https://www.youtube.com/playlist?list=PLjeQ9Mb66hM1VsmVaQ9Xf3d98kNHun66f](https://www.youtube.com/playlist?list=PLjeQ9Mb66hM1VsmVaQ9Xf3d98kNHun66f) → Bro coders cp sheet
-
-[https://codeforces.com/catalog](https://codeforces.com/catalog) →All top blogs of codeforces
-
-[https://twitter.com/abhishekcode42/status/1683502923462897665](https://twitter.com/abhishekcode42/status/1683502923462897665) →Abhishek Saini tweet on CP
-
-[https://codeforces.com/group/MWSDmqGsZm/contests](https://codeforces.com/group/MWSDmqGsZm/contests) → Cp sheet for beginners 
-
-[https://blog.shahjalalshohag.com/topic-list/](https://blog.shahjalalshohag.com/topic-list/)   →Best blog on codeforces
-
-[https://usaco.guide/silver/custom-cpp-stl?lang=cpp](https://usaco.guide/silver/custom-cpp-stl?lang=cpp) → Guided path for cp(Soutik Dey)
-
-[https://github.com/CoderS2020/Cpp-Algo-DS/tree/main](https://github.com/CoderS2020/Cpp-Algo-DS/tree/main) → Github for cp topics 
-
-[https://leetcode.com/discuss/interview-question/3695233/all-types-of-patterns-for-bits-manipulations-and-how-to-use-it](https://leetcode.com/discuss/interview-question/3695233/all-types-of-patterns-for-bits-manipulations-and-how-to-use-it) →BIT manipulation best resources of leetcode article
-
-[https://www.mygreatlearning.com/blog/set-in-cpp/#basic-functions-sets](https://www.mygreatlearning.com/blog/set-in-cpp/#basic-functions-sets) → detailed article on set, unordered set and multiset
-
-[https://igotanoffer.com/blogs/tech/map-interview-questions#easy](https://igotanoffer.com/blogs/tech/map-interview-questions#easy) →detailed article on  maps
-
-[https://leetcode.com/list/504wrexe/](https://leetcode.com/list/504wrexe/) → Hashtable and map practice problems
-
-[https://medium.com/techie-delight/queue-data-structure-practice-problems-and-interview-questions-f459bf0578db](https://medium.com/techie-delight/queue-data-structure-practice-problems-and-interview-questions-f459bf0578db) → Queue practice problems
-
-[https://people.computing.clemson.edu/~goddard/texts/dataStructCPP/fullText.pdf](https://people.computing.clemson.edu/~goddard/texts/dataStructCPP/fullText.pdf) → C++ data structures cheetsheet pdf
-
-[https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h](https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h)
-
-[https://www.youtube.com/watch?v=oAAKamOnruM](https://www.youtube.com/watch?v=oAAKamOnruM) → Kartik auroora
-STL
-
-Bro coders placement sheet:-
-
-[https://onedrive.live.com/view.aspx?resid=633D0AA17B58E355%213089&ithint=file%2Cdocx&authkey=%21APXxsLmWQinD6kE](https://onedrive.live.com/view.aspx?resid=633D0AA17B58E355%213089&ithint=file%2Cdocx&authkey=%21APXxsLmWQinD6kE)
+For more resources and details, please explore the provided links.
 
 # ——————————————————————————-
 
@@ -140,8 +123,8 @@ FUNCTIONS MOSTLY USED IN CP
     - Space Complexity: O(log n) (for the recursive stack space)
     - Example:
         
-        ```
-        cppCopy code
+        ```cpp
+        
         int arr[] = {5, 2, 8, 1, 9};
         int n = sizeof(arr) / sizeof(arr[0]);
         
@@ -159,8 +142,8 @@ FUNCTIONS MOSTLY USED IN CP
     - Description: Reverses the order of elements in an array.
     - Example:
         
-        ```
-        cppCopy code
+        ```cpp
+        
         int arr[] = {1, 2, 3, 4, 5};
         int n = sizeof(arr) / sizeof(arr[0]);
         
@@ -178,8 +161,8 @@ FUNCTIONS MOSTLY USED IN CP
     - Space Complexity: O(1)
     - Example:
         
-        ```
-        cppCopy code
+        ```cpp
+        
         int a = 12;
         int b = 18;
         
@@ -197,7 +180,7 @@ FUNCTIONS MOSTLY USED IN CP
     - Description: Swaps the values of two variables.
     - Example:
         
-        ```
+        ```cpp
         cppCopy code
         int x = 5;
         int y = 10;
@@ -216,8 +199,8 @@ FUNCTIONS MOSTLY USED IN CP
     - Space Complexity: O(1)
     - Example:
         
-        ```
-        cppCopy code
+        ```cpp
+        
         int arr[] = {1, 2, 3};
         int n = sizeof(arr) / sizeof(arr[0]);
         
@@ -241,8 +224,8 @@ FUNCTIONS MOSTLY USED IN CP
     - Space Complexity: O(1)
     - Example:
         
-        ```
-        cppCopy code
+        ```cpp
+        
         int arr[] = {1, 3, 5, 7, 9};
         int n = sizeof(arr) / sizeof(arr[0]);
         int target = 5;
@@ -261,8 +244,8 @@ FUNCTIONS MOSTLY USED IN CP
     - Space Complexity: O(1)
     - Example:
         
-        ```
-        cppCopy code
+        ```cpp
+        
         int a = 10;
         int b = 5;
         
@@ -281,7 +264,7 @@ FUNCTIONS MOSTLY USED IN CP
     - Space Complexity: O(1)
     - Example:
         
-        ```
+        ```cpp
         cppCopy code
         double base = 2.0;
         double exponent = 3.0;
@@ -300,8 +283,8 @@ FUNCTIONS MOSTLY USED IN CP
     - Space Complexity: O(1)
     - Example:
         
-        ```
-        cppCopy code
+        ```cpp
+        
         int arr[5];
         int value = 0;
         size_t num = sizeof(arr);
@@ -1862,7 +1845,6 @@ int main(){
 
 */
 ```
-
 
 
 
