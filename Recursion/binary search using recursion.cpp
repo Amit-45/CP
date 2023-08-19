@@ -26,7 +26,7 @@ bool binarySearchUsingRecursion(int low, int high, int key, int arr[])
 
 int main()
 {
-    int arr[] = {1, 9, 3, 4, 5, 6, 7, 8, 9, 10};
+    int arr[] = {1, 3, 4, 5, 6, 7, 8, 9, 10}; //array must be sorted
     int n = sizeof(arr) / sizeof(int);
     int key = 200; // Key to search for
 
