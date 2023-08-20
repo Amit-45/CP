@@ -11,7 +11,7 @@ private:
         generateSubsets(index + 1, nums, curr, result); //Not take
 
         curr.push_back(nums[index]); //Take
-        generateSubsets(index + 1, nums, curr, result);
+        generateSubsets(index + 1, nums, curr, result); //Takke
         curr.pop_back(); // Backtrack
     }
 public:
