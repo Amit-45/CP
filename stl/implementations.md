@@ -2,7 +2,7 @@
 ## Table of Contents
 
 - [Vectors](#vectors)
-- [Deque](#deque)
+- [Deque(while loop)](#deque)
 - [List](#list)
 - [Set](#set)
 - [Map](#map)
@@ -12,9 +12,9 @@
 - [Unordered Map](#unordered-map)
 - [Unordered Multi Set](#unordered-multi-set)
 - [Unordered Multi Map](#unordered-multi-map)
-- [Stack](#stack)
-- [Queue](#queue)
-- [Priority Queue](#priority-queue)
+- [Stack(while loop)](#stack)
+- [Queue(while loop)](#queue)
+- [Priority Queue(while loop)](#priority-queue)
 
 ## Vectors
 <img width="466" alt="Screenshot 2023-08-23 at 3 39 59 AM" src="https://github.com/Amit-45/CP/assets/77204104/bdc2d326-a78e-431f-b863-5583c1000693">
