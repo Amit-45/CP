@@ -33,6 +33,9 @@ using namespace std;
 int main() {
     vector<int> v;
 
+    //User input in vector
+    for(int i=0;i<n;i++) cin>>v[i];
+
     // Push elements to the vector
     v.push_back(10);
     v.push_back(20);
@@ -145,6 +148,15 @@ using namespace std;
 
 int main() {
     deque<int> dq;
+
+
+   //user input in deque
+   int n; cin>>n;
+   deque<int> dq;
+   for(int i=0;i<n;i++) {
+       int ele; cin>>ele;
+       dq.push_back(ele);
+   }
 
     // Push elements to the back of the deque
     dq.push_back(10);
