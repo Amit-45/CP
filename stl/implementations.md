@@ -44,10 +44,14 @@ int main() {
     }
     cout << endl;
 
+    // Access elements using iterators(easy way)
+    for(auto i: v) cout<<i<<" ";
+       cout<<endl;
+
     // Access elements using reverse iterators
     cout << "Elements in reverse order: ";
     for (auto rit = v.rbegin(); rit != v.rend(); ++rit) {
-        cout << *rit << " ";
+        cout << *rit << " "; 
     }
     cout << endl;
 
@@ -62,8 +66,60 @@ int main() {
     auto eraseIt = v.begin() + 2;
     v.erase(eraseIt);
 
-    // Sort the vector
+    // Sort the vector(increasing)
     sort(v.begin(), v.end());
+
+    // Sort the vector(decreasing)
+    sort(v.rbegin(), v.rend());
+
+    //delete repeating element in vector
+    sort(v.begin(),v.end());
+    v.erase(unique(v.begin(),v.end()),v.end()); //O(n log n)
+
+   //minimum element in vector O(n)
+   auto itMin =min_element(v.begin(),v.end()); //iterator 
+   int minVal= *itMin; //value
+   cout<<minVal<<endl;
+   
+   
+   //maximum element in vector O(n)
+   auto itMax = max_element(v.begin(),v.end()); //iterator 
+   int maxVal= *itMax; //value
+   cout<<maxVal<<endl;
+   
+   
+   //reverse a vector O(n)
+   reverse (v.begin(),v.end());
+   for(auto i: v) cout<<i<<" ";
+
+    //find(ele): It returns an iterator to the first occurrence of the specified element O(n)
+    auto it = find(v.begin(), v.end(), 6);
+    if (it != v.end()) {
+        cout << *it;
+    } else {
+        cout << "Element not found";
+    }
+    
+    
+    //count() : Gives the count of the ele in vector O(n)
+    int counter = count(v.begin(),v.end(),5);
+    cout<<counter<<endl;
+    
+    //fill : fills the vector with certain value O(n)
+    fill(v.begin(),v.end(),100); //100 is the value that will be filled 
+    for(auto i:v ) cout<<i<<" "; cout<<endl;
+    
+    //fill with increasing values: O(n)
+    iota(v.begin(),v.end(),0); //0 is the start value
+    for(auto i:v ) cout<<i<<" "; cout<<endl;
+    
+    //sum of values in a range O(n)
+    cout<< accumulate(v.begin(),v.end(),0)<<endl; //0 is the starting index
+    
+    //check if vector is sorted  O(n)
+    bool check = is_sorted(v.begin(),v.end());
+    cout<<check<<endl;
+    
 
     // Print the sorted vector
     cout << "Sorted elements: ";
