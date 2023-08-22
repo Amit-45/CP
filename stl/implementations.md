@@ -17,8 +17,9 @@
 - [Priority Queue](#priority-queue)
 
 ## Vectors
+<img width="466" alt="Screenshot 2023-08-23 at 3 39 59 AM" src="https://github.com/Amit-45/CP/assets/77204104/bdc2d326-a78e-431f-b863-5583c1000693">
 
-### Code Example
+
 
 ```cpp
 
@@ -76,6 +77,7 @@ int main() {
 ```
 
 ## Deque
+<img width="454" alt="Screenshot 2023-08-23 at 3 40 44 AM" src="https://github.com/Amit-45/CP/assets/77204104/b20b9aeb-0a1c-4a56-ab77-ce577e6ba692">
 
 ```cpp
 
@@ -142,6 +144,9 @@ int main() {
 }
 ```
 ## List
+
+<img width="462" alt="Screenshot 2023-08-23 at 3 41 25 AM" src="https://github.com/Amit-45/CP/assets/77204104/2f8cbbc1-c2a1-4faf-9532-76d2c9018647">
+
 
 ```cpp
 
@@ -213,6 +218,9 @@ int main() {
 }
 ```
 ## SET
+<img width="460" alt="Screenshot 2023-08-23 at 3 42 05 AM" src="https://github.com/Amit-45/CP/assets/77204104/b8b15cfd-4a1e-4a49-b168-529676b21d0b">
+
+
 ```cpp
 
 
@@ -262,6 +270,9 @@ int main() {
 }
 ```
 ## MAP:
+<img width="460" alt="Screenshot 2023-08-23 at 3 42 34 AM" src="https://github.com/Amit-45/CP/assets/77204104/409b1d84-9991-4ae6-a39a-097ecfcaaddb">
+
+
 ```cpp
 
 
@@ -329,6 +340,8 @@ int main() {
 }
 ```
 ## MULTI SET:
+<img width="464" alt="Screenshot 2023-08-23 at 3 42 52 AM" src="https://github.com/Amit-45/CP/assets/77204104/80c735f3-3127-481e-b4fd-d94d35cf0b35">
+
 ```cpp
 
 
@@ -375,6 +388,8 @@ int main() {
 }
 ```
 ## MULTI MAP:
+<img width="456" alt="Screenshot 2023-08-23 at 3 43 12 AM" src="https://github.com/Amit-45/CP/assets/77204104/2af01043-814b-45df-afb2-ce9d530170b2">
+
 ```cpp
 
 
@@ -434,6 +449,9 @@ int main() {
 }
 ```
 ## UNORDERED SET:
+<img width="460" alt="Screenshot 2023-08-23 at 3 43 33 AM" src="https://github.com/Amit-45/CP/assets/77204104/b4b4aeb6-a4f4-46d7-95f1-19c0401796e0">
+
+
 ```cpp
 
 
@@ -472,6 +490,8 @@ int main() {
 }
 ```
 ## UNORDERED MAP
+<img width="467" alt="Screenshot 2023-08-23 at 3 43 50 AM" src="https://github.com/Amit-45/CP/assets/77204104/5a41ae69-c8b2-431f-97ff-959218822315">
+
 ```cpp
 
 
@@ -529,6 +549,8 @@ int main() {
 }
 ```
 ## UNORDERED MULTI SET:
+<img width="458" alt="Screenshot 2023-08-23 at 3 44 09 AM" src="https://github.com/Amit-45/CP/assets/77204104/45fe96b5-c227-476b-8de5-d158104d1ae0">
+
 ```cpp
 UNORDERED MULTI SET:
 
@@ -565,6 +587,7 @@ int main() {
 }
 ```
 ## UNORDERED MULTI MAP
+<img width="452" alt="Screenshot 2023-08-23 at 3 44 23 AM" src="https://github.com/Amit-45/CP/assets/77204104/469c5f2b-b9ef-4bc8-8316-123196dade5e">
 
 ```cpp
 
@@ -623,6 +646,8 @@ int main() {
 }
 ```
 ## STACK:
+<img width="463" alt="Screenshot 2023-08-23 at 3 44 46 AM" src="https://github.com/Amit-45/CP/assets/77204104/dd64d723-36ee-4a89-b77f-ca1117c080da">
+
 ```cpp
 
 
@@ -656,6 +681,7 @@ int main() {
 }
 ```
 ## QUEUE
+<img width="451" alt="Screenshot 2023-08-23 at 3 45 03 AM" src="https://github.com/Amit-45/CP/assets/77204104/d8f1d3f7-16dc-4db0-957c-a4845e8870e5">
 
 ```cpp
 
@@ -691,6 +717,8 @@ int main() {
 }
 ```
 ## PRIORIRY QUEUE
+<img width="466" alt="Screenshot 2023-08-23 at 3 45 18 AM" src="https://github.com/Amit-45/CP/assets/77204104/cef287dd-f65e-4ac1-9c0d-0a20627e8b95">
+
 ```cpp
 
 
