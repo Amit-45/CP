@@ -17,7 +17,8 @@
 - [Priority Queue(while loop)](#priority-queue)
 
 ## Vectors
-<img width="466" alt="Screenshot 2023-08-23 at 3 39 59 AM" src="https://github.com/Amit-45/CP/assets/77204104/bdc2d326-a78e-431f-b863-5583c1000693">
+
+<img width="418" alt="Screenshot 2023-08-23 at 4 44 14 AM" src="https://github.com/Amit-45/CP/assets/77204104/d9f5feae-636c-4cd6-a96e-bd6f94f04431">
 
 
 
