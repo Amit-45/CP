@@ -16,6 +16,17 @@
 - [Queue(while loop)](#queue)
 - [Priority Queue(while loop)](#priority-queue)
 
+## Some more useful links for STL
+- [STL internal implementations](https://leetcode.com/discuss/study-guide/1359115/All-C%2B%2B-STL-internal-implementation-oror-last_minute_notes-oror-2021)
+- [Maps (Detailed article)](https://igotanoffer.com/blogs/tech/map-interview-questions#easy)
+- [set unordered set and multiset(Detailed article)](https://www.mygreatlearning.com/blog/set-in-cpp/#basic-functions-sets )
+- [queue and deque (Detailed article)](https://www.cosmiclearn.com/cplusplus/stdqueue.php)
+- [Tabular format cheetsheet STL](https://leetcode.com/discuss/study-guide/1154632/C%2B%2B-STL-powerful-guide-or-Compiled-list-of-popular-STL-operations)
+- [Some more links ](hyp0cr1t3/CC/blob/master/Beginner%20Topics/%5BS1%5D%20Greed%20is%20good%2C%20sort%20of/%5BEP%204%5D%20C%2B%2B%20STL.md)
+- [Priority queue of pairs with ordering](https://www.codingninjas.com/studio/library/priority-queue-of-pairs-in-c-with-ordering)
+- [Time complexity STL containers](https://users.cs.northwestern.edu/~riesbeck/programming/c++/stl-summary.html )
+- [STL CN](https://www.codingninjas.com/studio/guided-paths/competitive-programming/content/148323/offering/1788468)
+
 ## Vectors
 
 <img width="418" alt="Screenshot 2023-08-23 at 4 44 14 AM" src="https://github.com/Amit-45/CP/assets/77204104/d9f5feae-636c-4cd6-a96e-bd6f94f04431">
