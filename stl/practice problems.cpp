@@ -180,51 +180,6 @@ void solve()
 
 5. Subset sum problem:
 
-int main()
-{
-    ll n,i,j,t;
-    boost;
-
-    cin>>t;
-    while(t--)
-    {
-        cin>>n;
-        ll m = 1<<n;
-        // there are 2^n numbers
-        ll arr[m];
-        rep(i,0,m)
-            cin>>arr[i];
-        // take input
-        sort(arr,arr+m);
-        // sorting the numbers as per logic.
-        
-        map<ll,ll> sums;// stores the possible sums as of now and their frequency
-
-        sums[0]=1;// 0 can be generated as of now 
-
-        vi ans;
-        vector<ll> subsums; // subset sums that can be created
-        
-        rep(i,0,m){
-            if(sums[arr[i]]){
-                sums[arr[i]]--; // this can be created so skip this once and 
-            }
-            else{                
-            	ans.pb(arr[i]); // creates the final array, freq is 0, so needed.
-                vector<ll> temp; // new subset sums that can be created.
-                for(auto &z:subsums) // with all the previous 
-                    temp.pb(z+arr[i]), sums[z+arr[i]]++; // Merging previous subset sums with this elements and increase their generated frequency.
-                for(auto &z:temp)
-                    subsums.pb(z); // add the newly generated ones to the subset sums that are generated.
-                subsums.pb(arr[i]); // also add this single element set (merging with 0).
-            }
-        }
-        print(ans); // print the final generated numbers.
-    }
-
-    return 0;
-}
-
 6. Find the sum of the minimum of all subarrays possible of array A
 
 
