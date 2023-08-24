@@ -73,16 +73,13 @@ Method 4: Space Optimization
 
 class Solution {
 public:
-    int spaceOptimization(int index, vector<int> &dp)
+    int spaceOptimization(int index)
     {
        int prev1=1;
        int prev2=1;
 
-        if(dp[index]!=-1) return dp[index];
-
         for(int i=2;i<=index;i++)
         {
-            dp[i] = dp[i-1]+dp[i-2]; 
             int curr=prev1+prev2;
             prev2=prev1;
             prev1=curr;     
@@ -91,7 +88,7 @@ public:
     }
     int climbStairs(int n) {
         vector<int> dp(n+1,-1);
-        return spaceOptimization(n,dp);
+        return spaceOptimization(n);
     }
 };
 
