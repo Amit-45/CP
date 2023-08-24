@@ -1,3 +1,4 @@
+Question link: https://atcoder.jp/contests/dp/tasks/dp_b
 Method 1: Recursion  TC: O(k^n) SC: O(n)+ O(n) stack space
 int recursion(int index, vector<int> &arr,int k) 
 {
@@ -67,30 +68,30 @@ int main()
     cout<<frogJump(n,heights,k);
 }
 
-Method 3: Tabulation TC: O(n)*k SC: O(n)
+Method 3: Tabulation TC: O(n)*k SC: O(n) 
 
 int tabulation(int index, vector<int> &arr,int k,vector<int> &dp) 
 {
     dp[0]=0;
    
-    for(int i=1;i<index;i++)
+    for(int i=1;i<=index;i++)
     {
         int miniSteps = INT_MAX;
         for(int j=1;j<=k;j++)
         {
             if(i-j>=0)
             {
-               int jump = dp[i-j] + abs(arr[index ] - arr[index - j]);
+                int jump = dp[i-j] + abs(arr[i] - arr[i - j]);
+                
                 miniSteps= min(miniSteps , jump);
             }
             dp[i]=miniSteps;
         }  
     }
     
-     return dp[index-1];
+    return dp[index];
 
 }
-
 
 int frogJump(int n, vector<int> &heights,int k)
 {
