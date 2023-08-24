@@ -87,9 +87,9 @@ public:
         return prev1;
     }
     int climbStairs(int n) {
-        vector<int> dp(n+1,-1);
         return spaceOptimization(n);
     }
 };
+
 
   
