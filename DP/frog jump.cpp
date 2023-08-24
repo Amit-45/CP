@@ -1,5 +1,5 @@
-Codestudio link : 
-Atcoder link :
+Codestudio link : https://www.codingninjas.com/studio/problems/frog-jump_3621012
+Atcoder link : https://atcoder.jp/contests/dp/tasks/dp_a
 Recursion -> Memoization -> Tabulation -> Space optimiszation
 
 Method 1: Recursion 
