@@ -18,7 +18,7 @@ void solve()
 
 
 
-O(n) : DP approach
+O(n) time and  O(n) space of stack : DP approach (memoization) 
 int fib(int n,vector<int> &dp)
 {
     if(n<=1) return n;
@@ -37,23 +37,24 @@ void solve()
 }
 
 
-O(n) : Space optimised approach
+O(n) time  and O(1) space : Space optimised approach
 
 int fib(int n)
 {
     if(n<=1) return n;
 
-    int prev=0;
-    int curr=1;
+    int prev2=0;
+    int prev1=1;
 
     for(int i=2;i<=n;i++)
     {
-        int temp = curr;
-        curr = prev+temp;
-        prev=temp;
+       
+        int curr = prev1 + prev2;
+        prev2=prev1;
+        prev1=curr;
         
     }
-    return curr;
+    return prev1;
     
 }
 
