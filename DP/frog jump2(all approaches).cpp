@@ -66,4 +66,38 @@ int main()
     for (int i = 0; i < n; ++i) cin>>heights[i];
     cout<<frogJump(n,heights,k);
 }
+
+Method 3: Tabulation TC: O(n)*k SC: O(n)
+
+int tabulation(int index, vector<int> &arr,int k,vector<int> &dp) 
+{
+    dp[0]=0;
+   
+    for(int i=1;i<index;i++)
+    {
+        int miniSteps = INT_MAX;
+        for(int j=1;j<=k;j++)
+        {
+            if(i-j>=0)
+            {
+               int jump = dp[i-j] + abs(arr[index ] - arr[index - j]);
+                miniSteps= min(miniSteps , jump);
+            }
+            dp[i]=miniSteps;
+        }  
+    }
+    
+     return dp[index-1];
+
+}
+
+
+int frogJump(int n, vector<int> &heights,int k)
+{
+   vector<int> dp(n+1,-1);
+   return tabulation(n-1,heights,k,dp);   
+}
+
+Method 4: Space optimization
+
   
