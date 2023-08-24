@@ -1,4 +1,6 @@
-O(2^n) : Recursive appproach
+Recursion -> Memoization -> Tabulation -> Space optimiszation
+
+Method 1: Recursion -> O(2^n) 
 
 
 int fib(int n)
@@ -16,9 +18,10 @@ void solve()
 }
 
 
+ 
+Method 2: Memoization ->O(n) time and  O(n) space 
 
 
-O(n) time and  O(n) space of stack : DP approach (memoization) 
 int fib(int n,vector<int> &dp)
 {
     if(n<=1) return n;
@@ -36,8 +39,32 @@ void solve()
 
 }
 
+Method 3: Tabulation ->O(n) time and  O(n) space 
 
-O(n) time  and O(1) space : Space optimised approach
+int fib(int n,vector<int> &dp)
+{
+    if(n<=1) return n;
+
+    dp[0]=0;
+    dp[1]=1;
+
+    for(int i=2;i<=n;i++)
+    {
+        dp[i]=dp[i-1]+dp[i-2];
+    }
+    return dp[n];
+    
+}
+
+void solve()
+{
+    int n;
+    cin>>n;
+    vector<int> dp(n,-1);
+    cout<<fib(n,dp);
+}
+
+Method 4:  Space optimisation -> O(n) time and  O(1) space 
 
 int fib(int n)
 {
