@@ -1,4 +1,8 @@
-House robber problem 1: 
+House robber problem 1 : https://leetcode.com/problems/house-robber/
+OR
+Maximum sum of non adjacent elements: https://www.codingninjas.com/studio/problems/maximum-sum-of-non-adjacent-elements_843261
+
+
 
 1. Recursion
   
